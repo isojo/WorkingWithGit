@@ -1,15 +1,15 @@
 {
-  "name": "RepositorioGit",
-  "projectId": "912850db-0c2d-4afd-9b0c-f4e46dfbb71d",
-  "description": "Blank Process",
+  "name": "Lists_and_Dictionaries_Demo",
+  "projectId": "c44cef06-65d4-47ca-abd3-f7b010ffa4b7",
+  "description": "Using Dictionaries and Lists an item is added to the list of a dictionary-key pair, and an item is removed from a dictionary-key pair",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "[25.10.4]"
+    "UiPath.System.Activities": "[22.10.4]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "26.0.182.0",
+  "studioVersion": "22.10.3.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
@@ -18,7 +18,7 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
-    "workflowSerialization": "NewtonsoftJson",
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -33,19 +33,20 @@
     "projectProfile": "Developement",
     "outputType": "Process",
     "libraryOptions": {
+      "includeOriginalXaml": false,
       "privateWorkflows": []
     },
     "processOptions": {
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "saveToCloud": false
+    "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "4778cdba-0997-4d68-b29b-06eebea32dec",
+      "uniqueId": "9bc038e3-d0fd-4a6f-9b9a-5bbfa66d0aca",
       "input": [],
       "output": []
     }
